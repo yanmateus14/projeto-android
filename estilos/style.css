@@ -129,8 +129,17 @@ main a {
     color: var(--cor5);
     font-weight: bold;
     text-decoration: none;
-    background-color: var(--cor0);
+    background-color: var(--cor1);
     padding: 2px 6px ;
+}
+
+.extra_externo{
+    background-color: var(--cor3);
+    font-weight: bold;
+}
+
+a.extra_externo::after{
+    content: "\1F517" ;
 }
 
 main a:hover{
